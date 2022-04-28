@@ -6,8 +6,8 @@ const MD5 = require("crypto-js/md5");
 const app = express();
 const porta = 3000;
 
-const Aluno = "Fulano de Tal";
-const Turma = "xxxxxx";
+const Aluno = "Enrico Dela Valentina Oliveira Lima";
+const Turma = "AUT2D3";
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
